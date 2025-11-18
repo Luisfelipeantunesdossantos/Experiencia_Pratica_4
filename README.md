@@ -6,4 +6,4 @@ Adicionou-se também um botão dedicado à troca de tema, garantindo transição
 
 O arquivo principal foi renomeado, e uma nova imagem foi incorporada especialmente para o modo claro, acompanhada de um novo conjunto de cores mais adequado à proposta visual.
 
-Além disso, foi aplicada a lógica ARIA, assegurando acessibilidade apropriada durante a alternância entre os temas — algo essencial para uma experiência realmente primorosa.
+Além disso, foi aplicada a lógica ARIA, assegurando acessibilidade apropriada durante a alternância entre os temas algo essencial para uma experiência realmente primorosa.
