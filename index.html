@@ -3,23 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Organizações Mikaeles</title>
+    <meta name="description" content="Alvorada Digital - um refúgio de Vtuber e PNGtubers unidos pela criatividade e colaboração.">
+    <meta name="author" content="Alvorada Digital">
+    <link rel="icon" href="imagens/logo-alvorada-digital.png" type="image/png">
+    <title>Alvorada Digital</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Seja Bem Vindo a Organizações Mikaeles</h1>
+
     <header>
-    <nav>
-        <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="cadastro.html">Cadastro</a></li>
-        <li><a href="projetos.html">Projetos</a></li>
-        </ul> 
-    </nav>
+        <img src="imagens/logo-alvorada-digital.png" alt="Logo">
+        <h1>Bem-Vindo a Alvorada Digital</h1>
+        <p>Um refúgio de Vtubers e PNGTubers, onde sonhos e criações ganham vida sob a luz de uma nova aurora.</p>
+
+        <div class="header-controls">
+            <button id="theme-toggle" aria-label="Alternar modo escuro e claro">
+                <span aria-hidden="true">🌙</span> 
+            </button>
+            <button class="menu-toggle" aria-controls="main-nav" aria-expanded="false">☰</button>
+        </div>
+
+        <nav id="main-nav">
+            <ul>
+                <li><a href="#" data-page="home">Início</a></li>
+                <li class="has-submenu">
+                    <a href="#" data-page="projetos">Projetos</a>
+                    </li>
+                <li><a href="#" data-page="cadastro">Cadastro</a></li>
+            </ul>
+        </nav>
+
+
     </header>
 
-    <main>
+    <main id="conteudo" tabindex="-1"></main>
 
+    <footer>
+            <p>&copy; 2025 Alvorada Digital</p>
+    </footer>
 
-    </main>
+            <script type="module" src="js/app.js"></script>
+
 </body>
 </html>
